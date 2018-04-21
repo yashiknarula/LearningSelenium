@@ -14,7 +14,7 @@ public class FindLeadsPage extends ProjectMethods{
 	
 	public FindLeadsPage() {		
 		PageFactory.initElements(driver,this);
-	}	 
+	}
 	
 	@FindBy(how=How.XPATH,using="//span[text()='Phone']")
 	private WebElement elePhnTab;
