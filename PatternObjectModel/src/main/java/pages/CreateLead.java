@@ -16,6 +16,8 @@ public class CreateLead extends ProjectMethods{
 	public CreateLead() {	 	
 		PageFactory.initElements(driver,this);
 	}	
+	 
+	/*Creating the lead in test leaf*/
 	
 	@FindBy(how=How.ID,using="createLeadForm_companyName")
 	private WebElement elecmpname;
